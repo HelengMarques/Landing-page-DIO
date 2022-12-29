@@ -1,0 +1,180 @@
+body, * {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    font-family: 'Raleway', sans-serif;
+}
+
+.logo{
+    width: 248px;
+    height: 214px;
+    margin: 0 auto;
+
+    background: url();
+}
+
+main {
+    width: 800px;
+    margin: 0 auto;
+    height: auto;
+
+    padding: absolute;
+}
+
+footer{
+    width: 800px;
+    margin: 0 auto;
+    height: auto;
+    text-align: center;
+    padding-top: 10px;
+    
+
+    background : linear-gradient(180deg, rgba(0, 0, 0, 0.6) 0%, rgba(49, 168, 221, 0) 100%);
+    background-color: #023a64;
+}
+
+header{
+    background-image: url(assets/images/banner.png), linear-gradient(180deg, rgba(0, 0, 0, 0.6) 0%, rgba(49, 168, 221, 0) 100%);
+    background-color: #023a64;
+}
+
+h1{
+    width: 370px;
+    height: 50px;
+    margin: 0 auto;
+
+    background: linear-gradient(180deg, #33A8DB 0%, #1472B7 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+    border-bottom-color: 3px;
+}
+
+
+
+p{
+    width: 370px;
+    margin: 0 auto;
+    color:#fff;
+    padding-bottom: 20px;
+}
+
+button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 19px 91px;
+    gap: 31px;
+    position: relative;
+    width: 326px;
+    background: transparent;
+    height: 57px;
+    left: calc(50% - 326px/2);
+    top: calc(50% - 57px/2 + 199px);
+    border: 2px solid;
+    text-align: center;
+    color: #31A8DD;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.banner-content{
+    padding: 0 0 20px 0;
+}
+
+section{
+    background: black;
+}
+
+#course-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 24px;
+
+    position: absolute;
+    width: 500px;
+    height: 325px;
+    left: 324px;
+    top: 723px;
+
+}
+
+span{
+    color: #31A8DD;
+}
+
+.module{
+    color: white;
+}
+
+.aprender{
+   width: 477px;
+    height: 38px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    /* identical to box height */
+
+    letter-spacing: 0.19em;
+
+    color: #33A8DB;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+#transform-world{
+    position: absolute;
+    width: 244px;
+    height: 141px;
+    left: 0px;
+    top: 0px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 47px;
+
+    color: #FFFFFF;
+
+    text-shadow: 3px 2px 0px #33A8DB;
+
+    position: absolute;
+    width: 1439px;
+    height: 960px;
+    left: 0px;
+    top: -250px;
+
+    background: url(thisisengineering-raeng-8hgmG03spF4-unsplash.jpg);
+
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 1440px;
+    height: 363px;
+    left: 275px;
+    top: 1138px;
+
+    border-width: 1px 1px 1px 0px;
+    border-style: solid;
+    border-color: #33A8DB;
+}
